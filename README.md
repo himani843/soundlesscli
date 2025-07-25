@@ -1,4 +1,4 @@
-# COMMANDS
+# soundlessCLI COMMANDS
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
@@ -7,20 +7,18 @@ curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/s
 ```
 ```bash
 source ~/.bashrc
-
-
-bash
+```
+```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh
-
-
-bash
+```
+```bash
 source $HOME/.cargo/env
-
-
-bash
+```
+```bash
 soundnessup install
-
-
-bash
+```
+```bash
 soundness-cli generate-key --name my-key
-`
+```
+
+JOIN Telegram For Next Update : https://t.me/realdrophunter
