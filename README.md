@@ -1,6 +1,5 @@
 # soundlesscli
 # COMMANDS
-
 sudo apt update && sudo apt upgrade -y
 ```bash
 curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
