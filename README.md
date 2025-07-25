@@ -1,13 +1,26 @@
 # soundlesscli
-## Commands
+# COMMANDS
 
-- **`%help` / `%h`** — Display all commands  
-- **`%clear`** — Clears chat history  
-- **`%undo <n>`** — Undo last n messages & responses  
-- **`%system <msg>`** — Set a system prompt  
-- **`%save <file>`** — Save conversation to file  
-- **`%load <file>`** — Load a saved conversation  
-- **`!<shell_cmd>`** — Run shell command immediately  
-- **`!!<shell_cmd>`** — Execute shell command and capture output to `%STDOUT` or `%STDERR`  
-- **`%{path/to/file}`** — Embed content of a local file  
-- **`%%{https://…}`** — Fetch and embed content from a URL
+sudo apt update && sudo apt upgrade -y
+```bash
+curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
+```
+```bash
+source ~/.bashrc
+
+
+bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh
+
+
+bash
+source $HOME/.cargo/env
+
+
+bash
+soundnessup install
+
+
+bash
+soundness-cli generate-key --name my-key
+`
